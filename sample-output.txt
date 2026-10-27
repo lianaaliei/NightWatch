@@ -1,0 +1,10 @@
+525 packets  (tcp 443, udp 80, arp 2)
+[HIGH  ] 22:13:40 port-scan              10.0.0.66 sent SYNs to 15 ports on 1 host(s) within 10s
+[HIGH  ] 22:13:50 syn-flood              100+ SYNs to 10.0.0.5 within 5s
+[HIGH  ] 22:14:00 arp-spoofing           10.0.0.1 was aa:bb:cc:00:00:01, now claimed by de:ad:be:ef:00:66
+[HIGH  ] 22:14:13 dns-tunneling          20 unique high-entropy subdomains of evil-c2.example (avg len 34, entropy 3.6)
+[MEDIUM] 22:14:30 cleartext-credentials  HTTP Basic auth for user 'admin' sent unencrypted to 10.0.0.20:80
+[MEDIUM] 22:14:31 cleartext-credentials  FTP login 'alice' sent unencrypted to 10.0.0.21
+[MEDIUM] 22:14:32 cleartext-credentials  FTP password (masked: ********) sent unencrypted to 10.0.0.21
+
+7 alert(s)
